@@ -18,7 +18,7 @@ app.add_middleware(
 @app.get("/")
 async def welcome() -> dict:
   return {
-    "msg" : "hello world???"
+    "msg" : "hello world"
   }
 
 app.include_router(todo_router)
